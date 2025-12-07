@@ -1,4 +1,4 @@
-# Simple console Worlde game
+# Simple console Wordle game
 Implemented in python, compatible with MacOS, others untested
 ## Gameplay
 ${\color{green}Green}$
