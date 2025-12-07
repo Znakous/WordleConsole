@@ -129,6 +129,9 @@ if __name__ == "__main__":
     if len(sys.argv) > 1:
         lang_name = sys.argv[1].lower()
         for cur_lang in languages:
-            if lang_name == cur_lang["name"] or lang_name == cur_lang["short"]:
+            names = ([i.lower() for i in cur_lang["name"]] +
+                     [i.lower() for i in cur_lang["short"]] +
+                     [i.lower() for i in cur_lang["local_name"]])
+            if lang_name.lower() in names:
                 lang = cur_lang
     main()

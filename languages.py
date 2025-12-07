@@ -1,6 +1,7 @@
 languages = [
 {
     "name": "English",
+    "local_name": "English",
     "short": "eng",
     "start": "Playing Wordle in English",
     "stat" : "Statistics",
@@ -16,6 +17,7 @@ languages = [
 },
 {
     "name": "Russian",
+    "local_name": "Русский",
     "short": "rus",
     "start": "Играем в Вордли на русском",
     "stat": "Статистика",
